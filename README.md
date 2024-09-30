@@ -67,7 +67,7 @@ Chest Pain categories excludiing zero(0).**
     
     tuned_model.best_threshold_=0.78
     tuned_model.best_score_=0.88
-
+![png](output_46_0[1].png)
 
 **CONCLUSION.**
 
