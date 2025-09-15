@@ -5,29 +5,7 @@ The challenge at hand revolves around the creation of a sophisticated predictive
 
 The objective of this challenge is to design and build a predictive model capable of accurately determining the probability of an individual having heart disease. The focus is on leveraging machine learning techniques to create a model that can analyze relevant features and provide reliable predictions. The model should demonstrate high accuracy and generalizability, ensuring its effectiveness on new, unseen data.
 
-**EVALUATION**
-
-The error metric for this competition is Accuracy.
-However, we will also focus on **precision and recall** of the model predictions by taking some trade-off between them. Also finding the threshold for categorising the predictions probability in either 0:No or 1:Yes.
-
-
-**NOTE:**
-
-Let keep it in mind that one of the best evaluation metric will be the  ROC-AUC score and the F1 score.    
-
-## EXPLORATORY ANALYSIS.
-
-
-The target that we will be predicting is inbalanced with 0 and 1 having about 20% and 80% respectively. 
-   
-
-
-Patients having chest pain of category 0 have high chance of heart disease than other category.
-
-### EXERCISE INDUCED ANGINA (exang)
-Question:
-
-What category of chest pain do patients with exercise induced anginia have?.
+### Key Visualization from Analysis.
 
 
 **INSIGHTS**
@@ -35,14 +13,15 @@ What category of chest pain do patients with exercise induced anginia have?.
 * Individuals with *Exercise induced Angina* have high chance of heart disease.
 * Individuals with *chest pain (0)* have heart disease.
 
+### Problem Statement
 
-**The model may have confusion rate of about 0.19 for observations that doesnot fall under the following:
-Exercise Induced Anginia: No (0)
-Chest Pain categories excludiing zero(0).**
+The objective was to develop a robust classification model that could accurately predict whether a patient has heart disease (target variable = 1) or not (target variable = 0). This is a critical task in healthcare, as early and accurate detection can significantly improve patient outcomes.
+   
 
-# MODELLING RESULTS.
 
-## Logistic Regression.
+### MODELLING EVALUATION.
+
+#### Logistic Regression.
 
     Train ROC-AUC SCORE: 0.8270800873211603
     Test ROC-AUC SCORE: 0.8376050420168069
@@ -56,7 +35,7 @@ Chest Pain categories excludiing zero(0).**
     weighted avg       0.88      0.84      0.85       731
     
 
-## RandomForest.
+#### RandomForest.
 
 
     Train ROC-AUC SCORE: 0.9070821196070424
