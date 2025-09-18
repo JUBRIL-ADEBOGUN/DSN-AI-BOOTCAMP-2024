@@ -10,10 +10,13 @@ The objective of this challenge is to design and build a predictive model capabl
 
 **INSIGHTS**
 
-![png](induced angina.png)
+![induced angina](https://github.com/JUBRIL-ADEBOGUN/DSN-AI-BOOTCAMP-2024/blob/main/induced%20angina.png)
 
 
 * Individuals with *Exercise induced Angina* have high chance of heart disease.
+
+![chestpain](https://github.com/JUBRIL-ADEBOGUN/DSN-AI-BOOTCAMP-2024/blob/main/chest_pain.png)
+
 * Individuals with *chest pain (0)* have heart disease.
 
 ### Problem Statement
