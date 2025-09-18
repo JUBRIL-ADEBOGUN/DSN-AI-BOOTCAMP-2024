@@ -10,6 +10,9 @@ The objective of this challenge is to design and build a predictive model capabl
 
 **INSIGHTS**
 
+![png](induced angina.png)
+
+
 * Individuals with *Exercise induced Angina* have high chance of heart disease.
 * Individuals with *chest pain (0)* have heart disease.
 
